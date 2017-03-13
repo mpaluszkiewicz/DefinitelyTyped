@@ -3,8 +3,7 @@
 // Definitions by: Jakub Pistek <https://github.com/kubiq>
 // Definitions: https://github.com/kubiq/DefinitelyTyped
 
-declare module 'ngstorage' {
-
+declare module ngstorage {
     interface IStorageService {
         $default(items: {}): IStorageService;
         $reset(items?: {}): IStorageService;
