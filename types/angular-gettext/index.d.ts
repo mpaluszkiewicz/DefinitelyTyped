@@ -5,9 +5,9 @@
 
 /// <reference types="angular" />
 
-
 import * as angular from 'angular';
 
+export default 'gettext';
 
 declare module 'angular' {
   export namespace gettext {
